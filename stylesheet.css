@@ -1,17 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
-.smallpixie{
-	background-size: 50%;
-	background-color: aqua;
-	position:relative;
-	z-index:-10;
+#services{
+	background-color: #2D9AB7;
+	background-image: url("Pixie.svg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	align-self:center;
 }
 
 body {
 /*    font: 400 15px "dancing-script","dancing-script";*/
     line-height: 1.8;
     color: #818181;
-	font-family:400 15px 'Dancing Script', cursive;
+	font-family:  'Dancing Script', cursive;
 	background-attachment: fixed;
 	background-image: url("1920x1080plainbackground.png");
 	background-position: center;
