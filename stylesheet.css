@@ -20,9 +20,7 @@
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1)
 }
-.col-sm-4 .h4 {
-    color: white !important;
-}
+
 .sparkley {
     background: #3e5871;
     color: white;
@@ -46,7 +44,7 @@
     color: #515151;
 }
 .pixietitle h1 {
-    font-size: 121.50px;
+    
 }
 .navbar-brand {
     font-size: 24px;
@@ -85,6 +83,7 @@ body {
     background-color: rgba(45, 154, 183, 0.45);
 }
 h1 {
+	font-size: 121.50px 7.594em;
     color: #FFFFFF;
 }
 h2 {
@@ -108,7 +107,7 @@ h4 {
     background-size: cover;
     color: #fff;
     padding: 100px 25px;
-    height: 100%;
+    height: 120%s;
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
@@ -231,7 +230,6 @@ h4 {
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-    align-content: /*    font-family: Montserrat, sans-serif;*/
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
