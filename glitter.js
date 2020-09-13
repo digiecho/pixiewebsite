@@ -41,12 +41,14 @@ $(function() {
 //    overlap: 10,
 //    speed: 0.6
 //  });
-    $("Services,.banner,body,about,.gallery,Nav").sparkleh({
-      color: "white",
-    count: 580,
-    overlap: 10,
-    speed: 0.6
-  });   
+	
+//    $("Services,.banner,body,about,.gallery").sparkleh({
+//    color: "white",
+//    count: 980,
+//    overlap: 30,
+//    speed: 0.9
+//  }); 
+	
 //	$("about").sparkleh({
 //    color: "white",
 //    count: 580,
