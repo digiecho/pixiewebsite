@@ -53,14 +53,14 @@
     font-size: 36px !important;
 }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #EBBBCB;
+    color: rgba(45, 154, 183, 0.9);
     opacity: 1; /* Firefox */
 }
 .form-contro:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #EBBBCB;
+    color: rgba(45, 154, 183, 0.45);
 }
 .form-contro::-ms-input-placeholder { /* Microsoft Edge */
-    color: #EBBBCB;
+    color: rgba(45, 154, 183, 0.45);
 }
 body {
     /*    font: 400 15px "dancing-script","dancing-script";*/
@@ -75,7 +75,7 @@ body {
     height: auto;
 }
 .form-control {
-    background-color: rgba(45, 154, 183, 0.45);
+    background-color: rgba(235, 187, 203, 0.51);
     color: #FFFFFF;
     font-family: 'Dancing Script', cursive;
 }
