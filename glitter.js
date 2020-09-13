@@ -41,7 +41,7 @@ $(function() {
 //    overlap: 10,
 //    speed: 0.6
 //  });
-    $("Services,.banner,body,about,.gallery").sparkleh({
+    $("Services,.banner,body,about,.gallery,Nav").sparkleh({
       color: "white",
     count: 580,
     overlap: 10,
