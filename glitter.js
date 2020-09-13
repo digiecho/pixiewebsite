@@ -42,7 +42,7 @@ $(function() {
 //    speed: 0.6
 //  });
 	
-    $("Services,.banner,body,about,.gallery").sparkleh({
+    $("Services,.banner,body,about,.gallery,.contact").sparkleh({
     color: "white",
     count: 980,
     overlap: 30,
