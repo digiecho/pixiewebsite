@@ -149,6 +149,9 @@ h4 {
     color: rgba(45, 154, 183, 0.45);
     border-bottom-color: #EBBBCB;
     border-color: #EBBBCB;
+}.thumbnail p{
+	
+color:#EBBBCB;
 }
 .thumbnail {
     padding: 0 0 15px 0;
