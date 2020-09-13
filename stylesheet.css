@@ -7,6 +7,9 @@
     background-repeat: no-repeat;
     background-position: right;
 }
+.col-sm-4 .h4{
+	color:white !important;
+}
 .sparkley {
     background: #3e5871;
     color: white;
@@ -73,7 +76,7 @@ h2 {
 h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     font-weight: 400;
     margin-bottom: 30px;
 }
