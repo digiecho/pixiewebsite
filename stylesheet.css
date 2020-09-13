@@ -6,24 +6,22 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
 }
-
-.pixie{
-	align-self: center;
-	vertical-align: bottom;
-	display: inline;
-		
+.pixie {
+    align-self: center;
+    vertical-align: bottom;
+    display: inline;
 }
-.pixie2{
-	align-self: center;
-	vertical-align: bottom;
-	display: inline;
-	-webkit-transform: scaleX(-1);
-    transform: scaleX(-1)	
+.pixie2 {
+    align-self: center;
+    vertical-align: bottom;
+    display: inline;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1)
 }
-
-.col-sm-4 .h4{
-	color:white !important;
+.col-sm-4 .h4 {
+    color: white !important;
 }
 .sparkley {
     background: #3e5871;
@@ -47,14 +45,14 @@
 .dust {
     color: #515151;
 }
-.pixietitle {
-	font-size: 121.50px !important;
+.pixietitle h1 {
+    font-size: 121.50px;
 }
-.navbar-brand{
-	font-size: 24px;
+.navbar-brand {
+    font-size: 24px;
 }
-.text-capitalize  {
-	font-size: 36px !important;
+.text-capitalize {
+    font-size: 36px !important;
 }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #EBBBCB;
@@ -115,9 +113,8 @@ h4 {
 }
 .container-fluid {
     padding: 60px 50px;
-	 background-color: rgba(45, 154, 183, 0.45);
+    background-color: rgba(45, 154, 183, 0.45);
 }
-
 .bg-grey {
     background-color: rgba(235, 187, 203, 0.51);
 }
@@ -129,9 +126,8 @@ h4 {
     color: #EBBBCB;
     font-size: 200px;
 }
-#about{background-color: rgba(235, 187, 203, 0.51);}
-.aboutback{
-	
+#about {
+    background-color: rgba(235, 187, 203, 0.51);
 }
 .btn {
     background-color: rgba(45, 154, 183, 0.45);
@@ -228,15 +224,14 @@ h4 {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: rgba(45, 154, 183, 0.79);
+    background-color: rgba(45, 154, 183, 0.45);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
     border-radius: 0;
-	align-content: 
-    /*    font-family: Montserrat, sans-serif;*/
+    align-content: /*    font-family: Montserrat, sans-serif;*/
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
@@ -302,5 +297,5 @@ p {
         font-size: 150px;
     }
 }
-.subscribe {}.aboutback {
-}
+.subscribe {}
+.aboutback {}
