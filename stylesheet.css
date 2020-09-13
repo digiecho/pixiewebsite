@@ -17,8 +17,8 @@
     align-self: center;
     vertical-align: bottom;
     display: inline;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1)
+   width:50%;
+	height:auto;
 }
 
 .sparkley {
