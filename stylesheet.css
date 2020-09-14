@@ -21,7 +21,7 @@
    width:40%;
 	height:70%;
 /*	height:auto;*/
-	padding-bottom: 24px;
+	padding-bottom: 50px;
 }
 
 .sparkley {
@@ -64,6 +64,10 @@
 }
 .form-contro::-ms-input-placeholder { /* Microsoft Edge */
     color: rgba(172,199,226,1.00);
+}
+input .form-control{
+	top:50px;
+	
 }
 body {
     /*    font: 400 15px "dancing-script","dancing-script";*/
