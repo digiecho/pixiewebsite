@@ -85,7 +85,11 @@ body {
     font-family: 'Dancing Script', cursive;
 	font-size: 24px;
 }
-.col-sm-4 {
+.bluebg {
+ background-color: rgba(172,199,226,1);	
+	
+}
+#services .col-sm-4 {
 	background-color: rgba(172,199,226,0.5);
 	 
 }
@@ -105,12 +109,12 @@ h2 {
     margin-bottom: 30px;
 }
 h4 {
-    font-size: 19px;
-    line-height: 1.375em;
+    font-size: 18px;
+/*    line-height: 1.375em;*/
     color: #FFFFFF !important;
     font-weight: 400;
-    margin-bottom: 30px;
-	text-transform: capitalize;
+    margin-bottom: 18px;
+	
 }
 .jumbotron {
     background-color: rgba(0, 0, 0, 0);
@@ -123,7 +127,7 @@ h4 {
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
-    padding: 60px 50px;
+    padding: 50px 50px;
     background-color: rgba(172,199,226,1);
 }
 .bg-grey {
@@ -154,7 +158,7 @@ h4 {
 .btn-danger {
     background-color: rgba(172,199,226,1);
     color: rgba(253,225,255,1);
-    border-color: rgba(253,225,255,1);
+    border-color: rgba(172,199,226,1);
 	
 }
 .btn-danger:hover {
@@ -194,7 +198,7 @@ color:rgba(253,225,255,1);
     line-height: 1.375em;
     font-weight: 400;
     /*    font-style: italic;*/
-    margin: 70px 0;
+    margin: 60px 0;
 }
 .item span {
     font-style: normal;
