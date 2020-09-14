@@ -8,8 +8,8 @@ $(function() {
   // count determines number of sparkles
   // overlap allows sparkles to migrate... watch out for other dom elements though.
   $(".sparkley:last").sparkleh({
-    color: '#ffffff', 
-    count: 180,
+    color: "white", 
+    count: 1800,
     overlap: 10,
     speed: 1.9
     
@@ -42,9 +42,9 @@ $(function() {
 //    speed: 0.6
 //  });
 	
-    $("Services,.banner,body,about,.gallery,.contact").sparkleh({
-    color: "#ffffff",
-    count: 980,
+    $("Services,.banner,body,about,.gallery,.contact,footer, portfolio,contact").sparkleh({
+    color: "white",
+    count: 1980,
     overlap: 30,
     speed: 0.9
   }); 
@@ -120,8 +120,8 @@ $(function() {
   // speed allows us to control... the ... velocity 
   $("#image").imagesLoaded( function() {
     $(".img").sparkleh({
-       color: "#ffffff",
-    count: 180,
+       color: "white",
+    count: 1800,
     overlap: 10,
     speed: 1.9
     });

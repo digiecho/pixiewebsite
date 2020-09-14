@@ -1,13 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
 #services {
-    background-color: #ACC7E2; 
+    background-color: #ACC7E2;
     background-image: url("Pixie.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position:right;
+    background-position: right;
     background-size: auto;
-	
+}
+#portfolio {
+    /*    background-color: #ACC7E2; */
+    background-image: url("Pixie.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
 }
 .pixie {
     align-self: center;
@@ -18,12 +25,11 @@
     align-self: center;
     vertical-align: bottom;
     display: inline;
-   width:40%;
-	height:70%;
-/*	height:auto;*/
-	padding-bottom: 50px;
+    width: 40%;
+    height: 70%;
+    /*	height:auto;*/
+    padding-bottom: 50px;
 }
-
 .sparkley {
     background: #3e5871;
     color: white;
@@ -46,9 +52,7 @@
 .dust {
     color: #515151;
 }
-.pixietitle h1 {
-    
-}
+.pixietitle h1 {}
 .navbar-brand {
     font-size: 24px;
 }
@@ -56,53 +60,52 @@
     font-size: 36px !important;
 }
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgba(172,199,226,1.00);
+    color: rgba(172, 199, 226, 1.00);
     opacity: 1; /* Firefox */
 }
 .form-contro:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgba(172,199,226,1.00);
+    color: rgba(172, 199, 226, 1.00);
 }
 .form-contro::-ms-input-placeholder { /* Microsoft Edge */
-    color: rgba(172,199,226,1.00);
+    color: rgba(172, 199, 226, 1.00);
 }
-input .form-control{
-	top:50px;
-	
+input .form-control {
+    top: 50px;
 }
 body {
     /*    font: 400 15px "dancing-script","dancing-script";*/
     line-height: 1.8;
-    color: rgba(254,241,244,1.00);
+    color: rgba(254, 241, 244, 1.00);
     font-family: 'Dancing Script', cursive;
     background-attachment: fixed;
-/*    background-image: url("Asset 6-01.svg");*/
+    /*    background-image: url("Asset 6-01.svg");*/
     background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     width: 100%;
     height: auto;
 }
 .form-control {
-    background-color: rgba(254,241,244,1.00);
-    color: rgba(172,199,226,1);
+    background-color: rgba(254, 241, 244, 1.00);
+    color: rgba(172, 199, 226, 1);
     font-family: 'Dancing Script', cursive;
-	font-size: 24px;
+    font-size: 24px;
 }
 .bluebg {
- background-color: rgba(172,199,226,1);	
-	
+    background-color: rgba(172, 199, 226, 1);
+}
+.bluetxt {
+    color: rgba(172, 199, 226, 1) !important;
+}
+.pink-bg{
+	background-color: rgba(254, 241, 244, 0.95);
 }
 #services .col-sm-4 {
-	background-color: rgba(172,199,226,0.5);
-	 
+    background-color: rgba(172, 199, 226, 0.5);
 }
-.bluetxt{
-	color:rgba(172,199,226,1)!important;
-}
-
 h1 {
-	font-size: 121.50px 7.594em;
+    font-size: 121.50px 7.594em;
     color: #FFFFFF;
 }
 h2 {
@@ -114,11 +117,10 @@ h2 {
 }
 h4 {
     font-size: 18px;
-/*    line-height: 1.375em;*/
+    /*    line-height: 1.375em;*/
     color: #FFFFFF !important;
     font-weight: 400;
     margin-bottom: 18px;
-	
 }
 .jumbotron {
     background-color: rgba(0, 0, 0, 0);
@@ -131,55 +133,65 @@ h4 {
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
-    padding: 50px 50px;
-    background-color: rgba(172,199,226,1);
+	padding: 50px 50px;
+	    background-image: url("Pixie.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+	background-color: rgba(254, 241, 244, 1);
 }
 .bg-grey {
-    background-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
 }
+
 .logo-small {
-    color: rgba(254,241,244,1.00);
+    color: rgba(254, 241, 244, 1.00);
     font-size: 50px;
 }
 .logo {
-   color: rgba(254,241,244,1.00);
+    color: rgba(254, 241, 244, 1.00);
     font-size: 200px;
 }
 #about {
-    background-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
+    /*    background-color: #ACC7E2; */
+    background-image: url("Pixie.svg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
 }
 .btn {
-    background-color: rgba(172,199,226,1);
-    color: rgba(254,241,244,1.00);
-    border-color: rgba(254,241,244,1.00);
-	
+    background-color: rgba(172, 199, 226, 1);
+    color: rgba(254, 241, 244, 1.00);
+    border-color: rgba(254, 241, 244, 1.00);
 }
 .btn:hover {
-    background-color: rgba(254,241,244,1.00);
-    color: rgba(172,199,226,1);
-    
-    border-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
+    color: rgba(172, 199, 226, 1);
+    border-color: rgba(254, 241, 244, 1.00);
 }
 .btn-danger {
-    background-color: rgba(172,199,226,1);
-    color: rgba(254,241,244,1.00);
-    border-color: rgba(172,199,226,1);
-	
+    background-color: rgba(172, 199, 226, 1);
+    color: rgba(254, 241, 244, 1.00);
+    border-color: rgba(172, 199, 226, 1);
 }
 .btn-danger:hover {
-    background-color: rgba(254,241,244,1.00);
-    color: rgba(172,199,226,1);
-    border-bottom-color: rgba(254,241,244,1.00);
-    border-color: rgba(254,241,244,1.00);
-}.thumbnail p{
-	font-size:24px;
-color:rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
+    color: rgba(172, 199, 226, 1);
+    border-bottom-color: rgba(254, 241, 244, 1.00);
+    border-color: rgba(254, 241, 244, 1.00);
+}
+.thumbnail p {
+    font-size: 24px;
+    
 }
 .thumbnail {
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
-	background-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 0.95);
 }
 .thumbnail img {
     width: 100%;
@@ -188,16 +200,16 @@ color:rgba(254,241,244,1.00);
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: rgba(254,241,244,1.00);
+    color: rgba(254, 241, 244, 1.00);
 }
 .carousel-indicators li {
-    border-color: rgba(254,241,244,1.00);
+    border-color: rgba(254, 241, 244, 1.00);
 }
 .carousel-indicators li.active {
-    background-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
 }
 .carousel-inner {
-    background-color: rgba(172,199,226,1);
+    background-color: rgba(172, 199, 226, 1);
 }
 .item h4 {
     font-size: 19px;
@@ -218,13 +230,13 @@ color:rgba(254,241,244,1.00);
     box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
 }
 .panel-footer .btn:hover {
-    border: 1px solid rgba(254,241,244,1.00);
+    border: 1px solid rgba(254, 241, 244, 1.00);
     background-color: #fff !important;
-    color: rgba(254,241,244,1.00);
+    color: rgba(254, 241, 244, 1.00);
 }
 .panel-heading {
     color: #fff !important;
-    background-color: rgba(254,241,244,1.00) !important;
+    background-color: rgba(254, 241, 244, 1.00) !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -244,25 +256,25 @@ color:rgba(254,241,244,1.00);
 }
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: rgba(254,241,244,1.00);
+    background-color: rgba(254, 241, 244, 1.00);
     color: #fff;
 }
 .navbar {
-	margin-bottom: 0;
-	background-color: rgba(172,199,226,1);
-	z-index: 9999;
-	border: 0;
-	font-size: 24px !important;
-	line-height: 1.4286 !important;
-	border-radius: 0;
-	text-transform: capitalize;
+    margin-bottom: 0;
+    background-color: rgba(172, 199, 226, 1);
+    z-index: 9999;
+    border: 0;
+    font-size: 24px !important;
+    line-height: 1.4286 !important;
+    border-radius: 0;
+    text-transform: capitalize;
 }
 .navbar li a, .navbar .navbar-brand {
     color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: rgba(172,199,226,1)!important; 
-    background-color: rgba(254,241,244,1.00) !important;
+    color: rgba(172, 199, 226, 1) !important;
+    background-color: rgba(254, 241, 244, 1.00) !important;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -323,5 +335,4 @@ p {
 }
 .subscribe {}
 .aboutback {}
-.bluetxt {
-}
+.bluetxt {}
