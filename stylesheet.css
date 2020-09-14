@@ -179,6 +179,7 @@ color:rgba(254,241,244,1.00);
     padding: 0 0 15px 0;
     border: none;
     border-radius: 0;
+	background-color: rgba(254,241,244,1.00);
 }
 .thumbnail img {
     width: 100%;
@@ -196,7 +197,7 @@ color:rgba(254,241,244,1.00);
     background-color: rgba(254,241,244,1.00);
 }
 .carousel-inner {
-    background-color: rgba(254,241,244,1.00);
+    background-color: rgba(172,199,226,1);
 }
 .item h4 {
     font-size: 19px;
