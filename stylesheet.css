@@ -209,7 +209,7 @@ h4 {
     background-color: rgba(254, 241, 244, 1.00);
 }
 .carousel-inner {
-    background-color: rgba(172, 199, 226, 1);
+    background-color: rgba(172, 199, 226, 0.95);
 }
 .item h4 {
     font-size: 19px;
