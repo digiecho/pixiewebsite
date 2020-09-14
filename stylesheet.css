@@ -72,7 +72,7 @@ input .form-control{
 body {
     /*    font: 400 15px "dancing-script","dancing-script";*/
     line-height: 1.8;
-    color: rgba(253,225,255,1.00);
+    color: rgba(254,241,244,1.00);
     font-family: 'Dancing Script', cursive;
     background-attachment: fixed;
 /*    background-image: url("Asset 6-01.svg");*/
@@ -84,7 +84,7 @@ body {
     height: auto;
 }
 .form-control {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
     color: rgba(172,199,226,1);
     font-family: 'Dancing Script', cursive;
 	font-size: 24px;
@@ -135,44 +135,45 @@ h4 {
     background-color: rgba(172,199,226,1);
 }
 .bg-grey {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
 }
 .logo-small {
-    color: rgba(253,225,255,1);
+    color: rgba(254,241,244,1.00);
     font-size: 50px;
 }
 .logo {
-   color: rgba(253,225,255,1);
+   color: rgba(254,241,244,1.00);
     font-size: 200px;
 }
 #about {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
 }
 .btn {
     background-color: rgba(172,199,226,1);
-    color: rgba(253,225,255,1);
-    border-color: rgba(253,225,255,1);
+    color: rgba(254,241,244,1.00);
+    border-color: rgba(254,241,244,1.00);
+	
 }
 .btn:hover {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
     color: rgba(172,199,226,1);
     
-    border-color: rgba(253,225,255,1);
+    border-color: rgba(254,241,244,1.00);
 }
 .btn-danger {
     background-color: rgba(172,199,226,1);
-    color: rgba(253,225,255,1);
+    color: rgba(254,241,244,1.00);
     border-color: rgba(172,199,226,1);
 	
 }
 .btn-danger:hover {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
     color: rgba(172,199,226,1);
-    border-bottom-color: rgba(253,225,255,1);
-    border-color: rgba(253,225,255,1);
+    border-bottom-color: rgba(254,241,244,1.00);
+    border-color: rgba(254,241,244,1.00);
 }.thumbnail p{
 	font-size:24px;
-color:rgba(253,225,255,1);
+color:rgba(254,241,244,1.00);
 }
 .thumbnail {
     padding: 0 0 15px 0;
@@ -186,16 +187,16 @@ color:rgba(253,225,255,1);
 }
 .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: rgba(253,225,255,1);
+    color: rgba(254,241,244,1.00);
 }
 .carousel-indicators li {
-    border-color: rgba(253,225,255,1);
+    border-color: rgba(254,241,244,1.00);
 }
 .carousel-indicators li.active {
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
 }
 .carousel-inner {
-    background-color: rgba(172,199,226,1);
+    background-color: rgba(254,241,244,1.00);
 }
 .item h4 {
     font-size: 19px;
@@ -216,13 +217,13 @@ color:rgba(253,225,255,1);
     box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
 }
 .panel-footer .btn:hover {
-    border: 1px solid rgba(253,225,255,1);
+    border: 1px solid rgba(254,241,244,1.00);
     background-color: #fff !important;
-    color: rgba(253,225,255,1);
+    color: rgba(254,241,244,1.00);
 }
 .panel-heading {
     color: #fff !important;
-    background-color: rgba(253,225,255,1) !important;
+    background-color: rgba(254,241,244,1.00) !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -242,7 +243,7 @@ color:rgba(253,225,255,1);
 }
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: rgba(253,225,255,1);
+    background-color: rgba(254,241,244,1.00);
     color: #fff;
 }
 .navbar {
@@ -260,7 +261,7 @@ color:rgba(253,225,255,1);
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: rgba(172,199,226,1)!important; 
-    background-color: rgba(253,225,255,1) !important;
+    background-color: rgba(254,241,244,1.00) !important;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
