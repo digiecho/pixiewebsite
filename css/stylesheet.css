@@ -1,20 +1,82 @@
 @charset "utf-8";
 /* CSS Document */
 #services {
-    background-color: rgba(217,236,253,1.00);
+    background-color: rgba(217,236,253,0.95);
     background-image: url("../Pixie.svg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
+	align-content: center;
+}
+.row{
+	align-content: space-between;
+}
+.flip {
+  -webkit-perspective: 800;   
+          perspective: 800;
+        position: relative;
+        text-align: center;
+}
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+}
+.flip .card {
+    width: 270px;
+    height: 178px;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+    background-color: rgba(217,236,253,0.95);
+   
+}
+.flip .card .face {
+  -webkit-backface-visibility: hidden ;
+    backface-visibility: hidden ;
+   z-index: 2;
+}
+.flip .card .front {
+   position: absolute;
+   width: 270px;
+   z-index: 1;
+}
+.flip .card .front img{
+  width: 270px;
+  height: 100%;
+}
+.flip .card .img {
+   position: relaitve;
+   width: 270px;
+   height: 178px;
+   z-index: 1;
+   border: 2px solid #000;
+}
+.flip .card .back {
+  padding-top: 10%;
+  -webkit-transform: rotatey(-180deg);
+          transform: rotatey(-180deg);
+  position: absolute;
+}
+.inner{
+  margin:0px !important;
+  width: 270px;
 }
 #portfolio {
+	width:100%;
     /*    background-color: #ACC7E2; */
 /*    background-image: url("Pixie.svg");*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
+}
+.portfolioImage{
+	width:400px;
+	height:400px;
+	align-self: center;
+	
 }
 .pixie {
     align-self: center;
@@ -100,7 +162,7 @@ body {
 	background-color: rgba(254, 241, 244, 0.95);
 }
 #services .col-sm-4 {
-    background-color: rgba(217,236,253,1.00);
+    background-color: rgba(217,236,253,0.95);
 }
 h1 {
     font-size: 121.50px 7.594em;
@@ -131,12 +193,12 @@ h4 {
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
-	padding: 50px 50px;
+/*	padding: 50px 50px;*/
 /*	    background-image: url("Pixie.svg");*/
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right;
-    background-size: auto;
+    background-size: cover;
 	background-color: rgba(254, 241, 244, 1);
 }
 .bg-grey {
@@ -215,10 +277,22 @@ h4 {
 }
 
 #slide1{
-	background-image: url("/images/arena.jpg");
+	background-image: url("../images/virgin.jpg");
 	 background-repeat: no-repeat;
-    background-position: center
-		background-size;
+    background-position: center;
+		background-size: contain;
+}
+#slide2{
+	background-image: url("../images/tomorrow.jpg");
+	 background-repeat: no-repeat;
+    background-position: center;
+		background-size: contain;
+}
+#slide3{
+	background-image: url("../images/Tyneside.jpg");
+	 background-repeat: no-repeat;
+    background-position: center;
+		background-size: contain;
 }
 
 .item h4 {
