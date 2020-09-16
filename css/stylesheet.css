@@ -113,9 +113,9 @@
     align-self: center;
     vertical-align: bottom;
     display: inline;
-    width: 30%;
+    width: 600px;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .sparkley {
     background: #3e5871;
