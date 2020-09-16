@@ -57,8 +57,7 @@
         No job is too big or small for our Pixies!!!<br>
         We don't just clean... We care... </p>
       <br>
-      <button class="btn btn-default btn-lg"><strong>Get in Touch</strong></button>
-    </div>
+      <a href="#contact" class="btn btn-default btn-lg" data-target="#contact"> <strong>Get in Touch</strong></a> </div>
     <div class="col-sm-8 col-md-6">&nbsp;</div>
     <div class="col-sm-4 bluebg col-md-6"> <span class="glyphicon glyphicon-sort-by-alphabet logo  slideanim"></span> </div>
   </div>
@@ -81,20 +80,26 @@
   <h1 class="text-left"><strong>Services</strong></h1>
   <h2 class="text-left"><strong>Our Pixies have you covered..</strong></h2>
   <br>
-  <div class="row slideanim aligncenter d-flex justify-content-around">
+  <div class="row slideanim aligncenter"> 
+    <!--
+    Home cleaning 
+Venue cleaning 
+Deep Clean 
+Fogging service 
+-->
     <div class="col-sm-3">
       <div class="flip">
         <div class="card">
           <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-spray-can logo-small"></span>
-              <h3>Fogging</h3>
-              <p>Lastest fogging tech</p>
+            <div class="col-sm-4 inner"> <span class="fas fa-house-user logo-small"></span>
+              <h3>House keeping</h3>
+              <p>Put your feet up</p>
             </div>
           </div>
           <div class="face back">
             <div class="inner text-center">
-              <h3>Need your property, business or event sanitised?</h3>
-              <button type="button" class="btn btn-default">Know More</button>
+              <h3>Need someone to clean for you?</h3>
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalhousekeeping">More</button>
             </div>
           </div>
         </div>
@@ -112,7 +117,70 @@
           <div class="face back">
             <div class="inner text-center">
               <h3>Need your venue cleaning?</h3>
-              <button type="button" class="btn btn-default">Know More</button>
+              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalVenue">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-dog logo-small"></span>
+              <h3>Deep Clean</h3>
+              <p>Deep as the Ocean</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need a deep cleansing?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalDeep">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-spray-can logo-small"></span>
+              <h3>Fogging</h3>
+              <p>Lastest fogging tech</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need your property, business or event sanitised?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFogging">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--
+Kitchen/oven cleaning 
+Dog walking 
+Shopping service 
+Festival cleaning 
+-->
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+              <h3>Pixie Oven &amp; Kitchen Cleaning</h3>
+              <p>We make your ovens sparkle</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need your ovens cleaning?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalKitchen">More</button>
             </div>
           </div>
         </div>
@@ -124,21 +192,18 @@
           <div class="face front">
             <div class="col-sm-4 inner"> <span class="fas fa-dog logo-small"></span>
               <h3>Walkies</h3>
-              <p>Need your dogs walked?</p>
+              <p>Let us free us time</p>
             </div>
           </div>
           <div class="face back">
             <div class="inner text-center">
-              <h3>Keep your commitments</h3>
-              <button type="button" class="btn btn-default">Know More</button>
+              <h3>Need your dogs walked?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalWalkies">More</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <br>
-  <div class="row slideanim">
     <div class="col-sm-3">
       <div class="flip">
         <div class="card">
@@ -151,87 +216,345 @@
           <div class="face back">
             <div class="inner text-center">
               <h3>Need something?</h3>
-              <button type="button" class="btn btn-default">Know More</button>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalShopping">More</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-  <div class="col-sm-3">
-    <div class="flip">
-      <div class="card">
-        <div class="face front">
-          <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
-            <h3>Pixie Oven Deep Clean</h3>
-            <p>we make your over sparkle</p>
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fa fa-shopping-cart logo-small"></span>
+              <h3>Festival Services</h3>
+              <p>Let us do the hard work</p>
+            </div>
           </div>
-        </div>
-        <div class="face back">
-          <div class="inner text-center">
-            <h3>Need your ovens cleaning?</h3>
-            <button type="button" class="btn btn-default">Know More</button>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need help?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFest">More</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="flip">
-      <div class="card">
-        <div class="face front">
-          <div class="col-sm-4 inner"> <span class="fas fa-house-user logo-small"></span>
-            <h3>House keeper</h3>
-            <p>Put your feet up</p>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+              <h3>Litter Picking</h3>
+              <p>Put it in the bin</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need our Pixies to get picking?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalPick">More</button>
+            </div>
           </div>
         </div>
-        <div class="face back">
-          <div class="inner text-center">
-            <h3>Need someone to clean for you?</h3>
-            <button type="button" class="btn btn-default">Know More</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+              <h3>Toilet Attendents</h3>
+              <p>We keep you on a roll</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need some one to stand watch?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalToilet">More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="flip">
+        <div class="card">
+          <div class="face front">
+            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+              <h3>More</h3>
+              <p>Almost nothing we can't do</p>
+            </div>
+          </div>
+          <div class="face back">
+            <div class="inner text-center">
+              <h3>Need sometthing specific?</h3>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalMore">More</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-	</div>
+
+<!-- Modals -->
+
+<div id="myModalhousekeeping" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content house keeping-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Get a Pixie House keeper</h4>
+      </div>
+      <div class="modal-body">
+        <p> We all need a Pixie in our life, our team of Housekeepers don't just clean we care.
+          Tailored services to provide everything your home needs...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalVenue" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content venue cleaning-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Venue Cleaning</h4>
+      </div>
+      <div class="modal-body">
+        <p>Leading the way in venue cleaning, when it comes to venue cleaning, my Pixie's have you covered.
+          Ensuring YOUR venue never drops its standard's.....
+          For a tailored service we have you covered..
+          We don't just clean, we care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalDeep" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content deep-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Deep Clean</h4>
+      </div>
+      <div class="modal-body">
+        <p>Let my pixie team dust away the clutter, get the house in order. 
+          Our Pixie Deep Clean is perfect for those just needing a hand to get on top of things, moving home and selling home clean.
+          We dont just clean we care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalFogging" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Fogging</h4>
+      </div>
+      <div class="modal-body">
+        <p>Release The Pixie's 
+          Need your property, business or event sanitised?
+          My Pixie's use the latest fogging techniques, we release a almost invisible mist into the atmosphere, 
+          which eventually settles on all surfaces including those impossible to reach by conventional methods.
+          Our disinfectant when used leaves no residue, is non-tainting, non-staining, non-irritant and non-corrosive, 
+          leaving surfaces safe and clean for use.
+          Safe for humans, animals, plants and Pixie's.
+          This means that the disinfectant fogging process is particularly suitable as an all surface sanitation process for restaurants, hotels, outdoor events, bars, offices, stores, homes, holiday parks, gyms and vehicles.
+          Used in NHS hospitals and dentists.
+          Regular Pixie fogging , will help prevent the cross-infection of viruses such as MRSA and Covid-19 Corona-virus and many more.
+          We don't just clean, we care....</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalKitchen" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content kitchen-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pixie Oven Deep Clean</h4>
+      </div>
+      <div class="modal-body">
+        <p> Home Ovens 
+          Restaurant Oven Clean 
+          Industrial Oven Clean 
+          With a touch of Pixie magic, the oven will be like new...
+          We don't just clean, we care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalWalkies" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content walkies-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Walkies</h4>
+      </div>
+      <div class="modal-body">
+        <p> Pixie dog walking, we allow you to keep your commitments.
+          We provide the necessary exercises needed for your fur babies. And we always have treats...
+          We dont just clean we care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalFest" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content fest-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Festival Services</h4>
+      </div>
+      <div class="modal-body">
+        <p>Our Pixie's use the latest fogging techniques, 
+          we release a almost invisible mist into the atmosphere, 
+          which eventually settles on all surfaces 
+          including those impossible to reach by conventional methods.
+          Our disinfectant when used leaves no residue, 
+          is non-tainting, non-staining, non-irritant and non-corrosive, 
+          leaving surfaces safe and clean for use.
+          Safe for humans, animals, plants and Pixie's.
+          This means that the disinfectant fogging process is particularly 
+          suitable as an all surface sanitation process for restaurants, 
+          hotels, outdoor events, bars, offices, stores, homes, 
+          holiday parks, gyms and vehicles.
+          Used in NHS hospitals and dentists.
+          Regular Pixie fogging , will help prevent the 
+          cross-infection of viruses such as MRSA and 
+          Covid-19 Corona-virus and many more.
+          We don't just clean, we care....</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalPick" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content litterpicking-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Litter Picking</h4>
+      </div>
+      <div class="modal-body">
+        <p>We can provide litter picking Pixies for any occasion</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalToilet" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content litterpicking-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Toilet Attendants</h4>
+      </div>
+      <div class="modal-body">
+        <p>We can provide litter picking Pixies for any occasion, contact us for more info. We dont just clean, We Care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="modalMore" class="modal fade" role="dialog">
+  <div class="modal-dialog"> 
+    
+    <!-- Modal content More-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">More</h4>
+      </div>
+      <div class="modal-body">
+        <p>Need extra hands for moving home? cleaning your garden? or require a toylored service get in contact. We dont just clean, We care...</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h2>Portfolio</h2>
   <br>
   <h4 class="bluetxt">Who we have worked with</h4>
-  <div id="carouselExampleFade" class="carousel slide" data-ride="carousel">
+  <div id="carouselFade" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleFade" data-slide-to="1"></li>
-      <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+      <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselFade" data-slide-to="1"></li>
+      <li data-target="#carouselFade" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
-      <div class="item active" id="slide1">
-        <div class="carousel-caption d-none d-md-block">
+      
+        <div class="item active " id="slide1">
           <h5>Virgin unity festival</h5>
           <p>...need we say more?</p>
         </div>
-      </div>
-      <div class="item" id="slide2"> 
-        <!--		  <img class="d-block w-100 portfolioImage" src="images/tomorrow.jpg" alt="this is tomorrow" >-->
-        <div class="carousel-caption d-none d-md-block">
+      
+       
+        <div class="item " id="slide2">
           <h5>This is tomorrow festival</h5>
           <p>We came, we saw, we cleaned!!!</p>
         </div>
-      </div>
-      <div class="item" id="slide3"> 
-        <!--		  <img class="d-block w-100 portfolioImage" src="images/Tyneside.jpg" alt="council" >-->
-        <div class="carousel-caption d-none d-md-block">
+
+      
+        <div class="item " id="slide3">
           <h5>North Tyneside council</h5>
           <p>Yes, even local councils</p>
         </div>
-      </div>
+      
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carouselFade" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
   <br>
-  <h2 class="bluetxt">What our customers say</h2>
+	  <h2 class="bluetxt">What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel"> 
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -308,6 +631,5 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <script src="glitter.js"></script> 
 <script src="dust.js"></script> 
 <script src="flippy.js"></script>
-	
 </body>
 </html>

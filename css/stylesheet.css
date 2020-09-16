@@ -63,6 +63,12 @@
   margin:0px !important;
   width: 270px;
 }
+
+.modal-content {
+	padding-top: 16px;
+	background-color: #ACC7E2;
+	
+}
 #portfolio {
 	width:100%;
     /*    background-color: #ACC7E2; */
@@ -193,7 +199,7 @@ h4 {
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
-/*	padding: 50px 50px;*/
+	padding: 50px 50px;
 /*	    background-image: url("Pixie.svg");*/
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -271,7 +277,7 @@ h4 {
 .carousel-inner {
     background-color: rgba(217,236,253,1.00);
 }
-#carouselExampleFade .item{
+#carouselFade .item{
 	height: 400px;
 	
 }
@@ -385,21 +391,21 @@ p {
 @keyframes slide {
     0% {
         opacity: 0;
-        transform: translateY(70%);
+        transform: translateX(70%);
     }
     100% {
         opacity: 1;
-        transform: translateY(0%);
+        transform: translateX(0%);
     }
 }
 @-webkit-keyframes slide {
     0% {
         opacity: 0;
-        -webkit-transform: translateY(70%);
+        -webkit-transform: translateX(70%);
     }
     100% {
         opacity: 1;
-        -webkit-transform: translateY(0%);
+        -webkit-transform: translateX(0%);
     }
 }
 @media screen and (max-width: 768px) {
