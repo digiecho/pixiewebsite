@@ -122,7 +122,8 @@
 }
 
 .navbar-brand {
-    font-size: 24px;
+	font-size: 24px;
+	font-weight: bold;
 }
 .text-capitalize {
     font-size: 36px !important;
@@ -158,7 +159,7 @@ body {
     background-color: rgba(254, 241, 244, 1.00);
     color: rgba(0,0,0,1.00);
     font-family: 'Dancing Script', cursive;
-    font-size: 24px;
+/*    font-size: 24px;*/
 }
 .bluebg {
     background-color: rgba(217,236,253,1.00);
@@ -177,6 +178,7 @@ h1 {
     font-size: 121.50px 7.594em;
     color: #000000;
 }
+/*
 h2 {
     font-size: 24px;
     text-transform: capitalize;
@@ -184,6 +186,7 @@ h2 {
     font-weight: 600;
     margin-bottom: 30px;
 }
+*/
 h4 {
     font-size: 18px;
     /*    line-height: 1.375em;*/
@@ -341,7 +344,7 @@ h4 {
     background-color: white !important;
 }
 .panel-footer h3 {
-    font-size: 32px;
+	font-size: 32px;
 }
 .panel-footer h4 {
     color: #aaa;
@@ -363,7 +366,8 @@ h4 {
     text-transform: capitalize;
 }
 .navbar li a, .navbar .navbar-brand {
-    color: #000000 !important;
+	color: #000000 !important;
+	font-weight: bold;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: rgba(0,0,0,1.00) !important;
