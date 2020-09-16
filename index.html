@@ -7,18 +7,23 @@
 <link rel="shortcut icon" type="image/x-icon" href="pixielight2.svg" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="/dustytext.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--<link rel="stylesheet" href="normalise.css">-->
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
 <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
 <script>var adobewebfontsappname ="dreamweaver"</script> 
 <script src="http://use.edgefonts.net/abel:n4:default.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body class="preload" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<script>
+  AOS.init();
+</script>
 <!--	<img class="img-responsive" id="bgimg" src="1920x1080plainbackground.png"/>-->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
@@ -59,12 +64,16 @@
       <br>
       <a href="#contact" class="btn btn-default btn-lg" data-target="#contact"> <strong>Get in Touch</strong></a> </div>
     <div class="col-sm-8 col-md-6">&nbsp;</div>
-    <div class="col-sm-4 bluebg col-md-6"> <span class="glyphicon glyphicon-sort-by-alphabet logo  slideanim"></span> </div>
+    <div class="col-sm-4 bluebg col-md-6"> <span data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="glyphicon glyphicon-sort-by-alphabet logo"></span> </div>
   </div>
 </div>
 <div class="container-fluid">
   <div class="row">
-    <div class="col-sm-4 bluebg col-md-3"> <span class="glyphicon glyphicon-thumbs-up logo slideanim"></span> </div>
+    <div class="col-sm-4 bluebg col-md-3"> <span data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="glyphicon glyphicon-thumbs-up logo"></span> </div>
     <div class="col-sm-8 pink-bg col-md-9">
       <h2>Our Values</h2>
       <br>
@@ -80,7 +89,9 @@
   <h1 class="text-left"><strong>Services</strong></h1>
   <h2 class="text-left"><strong>Our Pixies have you covered..</strong></h2>
   <br>
-  <div class="row slideanim aligncenter"> 
+  <div  data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="row aligncenter"> 
     <!--
     Home cleaning 
 Venue cleaning 
@@ -167,7 +178,9 @@ Dog walking
 Shopping service 
 Festival cleaning 
 -->
-  <div class="row slideanim">
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"  class="row">
     <div class="col-sm-3">
       <div class="flip">
         <div class="card">
@@ -242,7 +255,9 @@ Festival cleaning
     </div>
   </div>
   <br>
-  <div class="row slideanim">
+  <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="row ">
     <div class="col-sm-3">
       <div class="flip">
         <div class="card">
@@ -586,10 +601,12 @@ Festival cleaning
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center bluetxt">CONTACT</h2>
-  <div class="row">
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="row">
     <div class="col-sm-5">
       <h4 class="text-lowercase"><strong class="bluetxt">Contact us and we'll get back to you within 24 hours.</strong></h4>
-      <p class="bluetxt"><span class="glyphicon glyphicon-map-marker slideanim slide"></span> Newcastle</p>
+      <p class="bluetxt"><span class="glyphicon glyphicon-map-marker slideanim slidel"></span> Newcastle</p>
       <p class="bluetxt"><span class="glyphicon glyphicon-phone slideanim"></span> 07387187385</p>
       <p class="bluetxt"><span class="glyphicon glyphicon-envelope  slideanim"></span> info@pixiedustcleaningservices.com</p>
     </div>

@@ -63,7 +63,10 @@
   margin:0px !important;
   width: 270px;
 }
-
+.modal{
+	align-self: center;
+	top:24px;
+}
 .modal-content {
 	padding-top: 16px;
 	background-color: #ACC7E2;
@@ -375,12 +378,26 @@ footer .glyphicon {
     margin-bottom: 20px;
     color: #EBBBCB;
 }
+
+/*animations*/
+
 .slideanim {
+    visibility: hidden;
+}
+
+.slidelanim {
     visibility: hidden;
 }
 .slide {
     animation-name: slide;
     -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.slidel {
+    animation-name: slidel;
+    -webkit-animation-name: slidel;
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
@@ -408,6 +425,27 @@ p {
         -webkit-transform: translateX(0%);
     }
 }
+@keyframes slidel {
+    0% {
+        opacity: 0;
+        transform: translateX(-70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@-webkit-keyframes slidel {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}
+
 @media screen and (max-width: 768px) {
     .col-sm-4 {
         text-align: center;

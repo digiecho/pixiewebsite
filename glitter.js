@@ -44,7 +44,7 @@ $(function() {
 	
     $("Services,.banner,body,about,.gallery,.contact,footer, portfolio,contact").sparkleh({
     color: "white",
-    count: 1980,
+    count: 2980,
     overlap: 30,
     speed: 0.9
   }); 
