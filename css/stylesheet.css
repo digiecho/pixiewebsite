@@ -48,13 +48,13 @@
     position: absolute;
     width: 270px;
     z-index: 1;
-    border-radius: 25px;
+/*    border-radius: 25px;*/
     /*	box-shadow: 2px 2px 5px rgba(0,0,0,0.25);*/
 }
 .flip .card .front img {
     width: 270px;
     height: 100%;
-    border-radius: 25px;
+/*    border-radius: 25px;*/
 }
 .flip .card .img {
     position: relaitve;
@@ -62,7 +62,7 @@
     height: 178px;
     z-index: 1;
     border: 2px solid #000;
-    border-radius: 25px;
+/*    border-radius: 25px;*/
 }
 .flip .card .back {
     padding-top: 10%;
@@ -70,16 +70,21 @@
     transform: rotatey(-180deg);
     position: absolute;
     /*    background-color: rgba(217, 236, 253, 0.95);*/
-    border-radius: 25px;
+/*    border-radius: 25px;*/
 }
 .inner {
     margin: 0px !important;
     width: 270px;
+/*	background-color: rgba(217, 236, 253, 0.0);*/
     /*
     border-radius: 25px;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
 */
 }
+ .col-sm-3{
+	background-color: rgba(217, 236, 253, 0.0);
+}
+
 .modal {
     align-self: center;
     top: 24px;
@@ -190,8 +195,8 @@ body {
     background-color: rgba(254, 241, 244, 0.95);
 }
 #services .col-sm-4 {
-    background-color: rgba(217, 236, 253, 0.95);
-    border-radius: 25px;
+/*    background-color: rgba(217, 236, 253, 0.95);*/
+/*    border-radius: 25px;*/
 }
 h1 {
     font-size: 121.50px 7.594em;
