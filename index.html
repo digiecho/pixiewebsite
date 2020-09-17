@@ -7,21 +7,20 @@
 <link rel="shortcut icon" type="image/x-icon" href="pixielight2.svg" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="/dustytext.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <!--<link rel="stylesheet" href="normalise.css">-->
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>	
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
 <script>var adobewebfontsappname ="dreamweaver"</script> 
 <script src="http://use.edgefonts.net/abel:n4:default.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body class="preload y-scroll y-mandatory" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-	
 <script>
   AOS.init();
 </script>
@@ -33,10 +32,10 @@
       <a class="navbar-brand" href="#myPage">Pixie Dust</a></div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">Know Us&nbsp;</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about" data-toggle="collapse" data-target="#myNavbar">Know Us&nbsp;</a></li>
+        <li><a href="#services"  data-toggle="collapse" data-target="#myNavbar" >Services</a></li>
+        <li><a href="#portfolio"  data-toggle="collapse" data-target="#myNavbar">Portfolio</a></li>
+        <li><a href="#contact"  data-toggle="collapse" data-target="#myNavbar">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -56,7 +55,7 @@
   <div class="row">
     <div class="col-sm-8 col-md-6 aboutback">
       <h1><strong class="bluetxt">Know Us</strong></h1>
-		<p>#"Getting to know you..."</p>
+      <p>#"Getting to know you..."</p>
       <br>
       <h4 class="bluetxt">A family run company who are passionate about providing a reliable, safe and affordable service...</h4>
       <br>
@@ -85,35 +84,31 @@
     </div>
   </div>
 </div>
-
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center d-flex justify-content-around">
   <h1 class="text-left"><strong>Services</strong></h1>
   <h2 class="text-left"><strong>Our Pixies have you covered..</strong></h2>
   <br>
-<!--
+  <!--
   <div  data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" class="row aligncenter"> 
 -->
-    <!--
+  <!--
     Home cleaning 
 Venue cleaning 
 Deep Clean 
 Fogging service 
 -->
- 
   <div class="container py-5">
-
-    <div class="row no-gutters">
-      <div class="col-12 col-lg-6">
-
+    <div class="row no-gutters"  >
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper flipper-xl">
           <div class="flipper-card">
-            <div class="flipper-front">
+            <div class="flipper-front"> 
               <!--               front -->
-
-              <div class="row no-gutters ">
+              
+              <div class="row no-gutters">
                 <div class="col align-self-center"> <span class="fas fa-house-user logo-small"></span>
                   <h3>House keeping</h3>
                   <p>Put your feet up</p>
@@ -124,18 +119,16 @@ Fogging service
               <div class="row no-gutters ">
                 <div class="col text-center">
                   <h3>Need someone to clean for you?</h3>
-                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalhousekeeping">More</button>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModalhousekeeping">More</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
       <div class="col-12 col-lg-6">
-        <div class="row no-gutters">
-          <div class="col-12 col-sm-6">
-
+        <div class="row no-gutters" >
+          <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
             <div class="flipper">
               <div class="flipper-card">
                 <div class="flipper-front">
@@ -145,278 +138,222 @@ Fogging service
                       <p>Leading the way in venue cleaning</p>
                     </div>
                   </div>
-
                 </div>
                 <div class="flipper-back">
-                    <div class="row no-gutters ">
-                  <div class="col text-center">
-                    <h3>Need your venue cleaning?</h3>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalVenue">More</button>
-                  </div>
+                  <div class="row no-gutters ">
+                    <div class="col text-center">
+                      <h3>Need your venue cleaning?</h3>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalVenue">More</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="col-12 col-sm-6">
-
+          <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
             <div class="flipper">
               <div class="flipper-card">
                 <div class="flipper-front">
-                   <div class="row no-gutters ">
+                  <div class="row no-gutters ">
                     <div class="col text-center"> <span class="fas fa-dog logo-small"></span>
-                          <h3>Deep Clean</h3>
-                          <p>Deep as the Ocean</p>
+                      <h3>Deep Clean</h3>
+                      <p>Deep as the Ocean</p>
                     </div>
                   </div>
-                  
                 </div>
                 <div class="flipper-back">
-                   <div class="row no-gutters ">
-                  <div class="col text-center">
-                    <h3>Need a deep cleansing?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalDeep">More</button>
+                  <div class="row no-gutters ">
+                    <div class="col text-center">
+                      <h3>Need a deep cleansing?</h3>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalDeep">More</button>
+                    </div>
                   </div>
-                  </div>
-                  
-                  
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="col-12 col-sm-6">
-
+          <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
             <div class="flipper">
               <div class="flipper-card flipper-is-flipped">
                 <div class="flipper-front">
-                  
-                    <div class="row no-gutters ">
+                  <div class="row no-gutters ">
                     <div class="col text-center"> <span class="fas fa-spray-can logo-small"></span>
-                        <h3>Fogging</h3>
-                        <p>Lastest fogging tech</p>
+                      <h3>Fogging</h3>
+                      <p>Lastest fogging tech</p>
                     </div>
                   </div>
-                  
                 </div>
                 <div class="flipper-back">
-                  
-                      <div class="row no-gutters ">
-                  <div class="col text-center">
-                    <h3>Need your property, business or event sanitised?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFogging">More</button>
-                  </div>
+                  <div class="row no-gutters ">
+                    <div class="col text-center">
+                      <h3>Need your property, business or event sanitised?</h3>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFogging">More</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-          <div class="col-12 col-sm-6">
-
+          <div class="col-12 col-sm-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
             <div class="flipper">
               <div class="flipper-card">
                 <div class="flipper-front">
-                  
-                    <div class="row no-gutters ">
+                  <div class="row no-gutters ">
                     <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
-                          <h3>Pixie Oven &amp; Kitchen Cleaning</h3>
-                          <p>We make your ovens sparkle</p>
+                      <h3>Pixie Oven &amp; Kitchen Cleaning</h3>
+                      <p>We make your ovens sparkle</p>
                     </div>
                   </div>
-                  
                 </div>
                 <div class="flipper-back">
-                  
-                   <div class="row no-gutters ">
-                  <div class="col text-center">
-                     <h3>Need your ovens cleaning?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalKitchen">More</button>
+                  <div class="row no-gutters ">
+                    <div class="col text-center">
+                      <h3>Need your ovens cleaning?</h3>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalKitchen">More</button>
+                    </div>
                   </div>
-                  </div>
-                  
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-
+      <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper">
           <div class="flipper-card">
             <div class="flipper-front">
-              
-                 <div class="row no-gutters ">
-                    <div class="col text-center"> <span class="fas fa-dog logo-small"></span>
-              <h3>Walkies</h3>
-              <p>Let us free us time</p>
-                    </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center"> <span class="fas fa-dog logo-small"></span>
+                  <h3>Walkies</h3>
+                  <p>Let us free us time</p>
+                </div>
+              </div>
             </div>
-            <div class="flipper-back">B
-            
-               <div class="row no-gutters ">
-                  <div class="col text-center">
-                     <h3>Need your dogs walked?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalWalkies">More</button>
-                  </div>
-                  </div>
+            <div class="flipper-back">
+              <div class="row no-gutters ">
+                <div class="col text-center">
+                  <h3>Need your dogs walked?</h3>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalWalkies">More</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-
+      <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper">
           <div class="flipper-card flipper-is-flipped">
             <div class="flipper-front">
-              
-                  <div class="row no-gutters ">
-                    <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
-              <h3>Shopping service </h3>
-              <p>Let us do the hard work</p>
-                    </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
+                  <h3>Shopping service </h3>
+                  <p>Let us do the hard work</p>
+                </div>
+              </div>
             </div>
-            <div class="flipper-back">B
-            
-            <div class="row no-gutters ">
-                  <div class="col text-center">
-                     <h3>Need something?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalShopping">More</button>
-                  </div>
-                  </div>
-            
+            <div class="flipper-back">
+              <div class="row no-gutters ">
+                <div class="col text-center">
+                  <h3>Need something?</h3>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalShopping">More</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-      <div class="col-12 col-lg-6">
-
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper ratio-not-1-1">
           <div class="flipper-card">
             <div class="flipper-front">
-              
-                   <div class="row no-gutters ">
-                    <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
-              <h3>Festival Services</h3>
-              <p>Let us do the hard work</p>
-                    </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
+                  <h3>Festival Services</h3>
+                  <p>Let us do the hard work</p>
+                </div>
+              </div>
             </div>
             <div class="flipper-back">
-              
-              
-               <div class="row no-gutters ">
-                  <div class="col text-center">
-                     <h3>Need help?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFest">More</button>
-                  </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center">
+                  <h3>Need help?</h3>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFest">More</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-      <div class="col-12 col-lg-6">
-
+      <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper ratio-not-1-1">
           <div class="flipper-card">
             <div class="flipper-front">
-              
-                 <div class="row no-gutters ">
-                    <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
-              <h3>Litter Picking</h3>
-              <p>Put it in the bin</p>
-                    </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
+                  <h3>Litter Picking</h3>
+                  <p>Put it in the bin</p>
+                </div>
+              </div>
             </div>
             <div class="flipper-back">
               <div class="row no-gutters ">
-              <h3>Need our Pixies to get picking?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalPick">More</button>
+                <h3>Need our Pixies to get picking?</h3>
+                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalPick">More</button>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-
+      <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper">
           <div class="flipper-card">
             <div class="flipper-front">
-              
-                   <div class="row no-gutters ">
-                    <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
-              <h3>Toilet Attendents</h3>
-              <p>We keep you on a roll</p>
-                    </div>
-                  </div>
-              
+              <div class="row no-gutters ">
+                <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
+                  <h3>Toilet Attendents</h3>
+                  <p>We keep you on a roll</p>
+                </div>
+              </div>
             </div>
             <div class="flipper-back">
-              
               <div class="row no-gutters ">
-                    <div class="col text-center">
-              <h3>Need some one to stand watch?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalToilet">More</button>
+                <div class="col text-center">
+                  <h3>Need some one to stand watch?</h3>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalToilet">More</button>
+                </div>
               </div>
-              </div>
-              
             </div>
           </div>
         </div>
-
       </div>
-      <div class="col-12 col-sm-6 col-lg-3">
-
+      <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-left" data-aos-offset="300"data-aos-easing="ease-in-sine">
         <div class="flipper">
           <div class="flipper-card">
             <div class="flipper-front">
-              
               <div class="row no-gutters ">
-              <div class="col text-center">
-              <span class="fas fa-hand-sparkles logo-small"></span>
-              <h3>More</h3>
-              <p>Almost nothing we can't do</p>
-              </div>
+                <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
+                  <h3>More</h3>
+                  <p>Almost nothing we can't do</p>
+                </div>
               </div>
             </div>
             <div class="flipper-back">
-              
               <div class="row no-gutters ">
-                    <div class="col text-center">
-              <h3>Need sometthing specific?</h3>
-              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalMore">More</button>
+                <div class="col text-center">
+                  <h3>Need sometthing specific?</h3>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalMore">More</button>
+                </div>
               </div>
-              </div>
-              
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
   </div>
-		</div>
-
+</div>
 <!-- Modals -->
-
 <div id="myModalhousekeeping" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content house keeping-->
     <div class="modal-content">
       <div class="modal-header">
@@ -428,14 +365,13 @@ Fogging service
           Tailored services to provide everything your home needs...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalVenue" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content venue cleaning-->
     <div class="modal-content">
       <div class="modal-header">
@@ -449,14 +385,13 @@ Fogging service
           We don't just clean, we care...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalDeep" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content deep-->
     <div class="modal-content">
       <div class="modal-header">
@@ -469,14 +404,13 @@ Fogging service
           We dont just clean we care...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalFogging" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
@@ -497,14 +431,13 @@ Fogging service
           We don't just clean, we care....</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalKitchen" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content kitchen-->
     <div class="modal-content">
       <div class="modal-header">
@@ -519,14 +452,13 @@ Fogging service
           We don't just clean, we care...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalWalkies" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content walkies-->
     <div class="modal-content">
       <div class="modal-header">
@@ -539,14 +471,13 @@ Fogging service
           We dont just clean, we walk dogs...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalFest" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content fest-->
     <div class="modal-content">
       <div class="modal-header">
@@ -555,17 +486,16 @@ Fogging service
       </div>
       <div class="modal-body">
         <p>Festival services 
-Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers, toilet staff and full surface sanitation fogging. Keep your guests safe. We don't just clean, we clean and dance at festivals...</p>
+          Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers, toilet staff and full surface sanitation fogging. Keep your guests safe. We don't just clean, we clean and dance at festivals...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
-	<div id="modalShopping" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+<div id="modalShopping" class="modal fade" role="dialog">
+  <div class="modal-dialog">
     <!-- Modal content fest-->
     <div class="modal-content">
       <div class="modal-header">
@@ -576,14 +506,13 @@ Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers
         <p>Shopping service is a personalised service if you cant get out we will be there, everyone needs a helping hand. We don't just clean, we'll do the shopping too...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalPick" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content litterpicking-->
     <div class="modal-content">
       <div class="modal-header">
@@ -594,14 +523,13 @@ Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers
         <p>We can provide litter picking Pixies for any occasion</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalToilet" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content litterpicking-->
     <div class="modal-content">
       <div class="modal-header">
@@ -612,14 +540,13 @@ Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers
         <p>Our Pixie's are available to ensure hygiene standards never drop, especially in the toilet. This is where all the germs get together, not to worry my Pixie's are ready. We don't just clean, we care...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
 <div id="modalMore" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
-    
+  <div class="modal-dialog">
     <!-- Modal content More-->
     <div class="modal-content">
       <div class="modal-header">
@@ -630,91 +557,74 @@ Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers
         <p>Need extra hands for moving home? cleaning your garden? or require a toylored service get in contact. We dont just clean, We care...</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><a href="#contact">Contact</a></button>
       </div>
     </div>
   </div>
 </div>
-
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
   <h1><strong>Portfolio</strong></h1>
   <br>
   <h3 class="bluetxt"><strong>Who we have worked with</strong></h3>
-<div id="carouselFade" class="carousel slide" data-ride="carousel" data-touch="true">
+  <div id="carouselFade" class="carousel slide" data-ride="carousel" data-touch="true">
     <ol class="carousel-indicators">
       <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
       <li data-target="#carouselFade" data-slide-to="1"></li>
       <li data-target="#carouselFade" data-slide-to="2"></li>
-		<li data-target="#carouselFade" data-slide-to="3"></li>
-		<li data-target="#carouselFade" data-slide-to="4"></li>
-		<li data-target="#carouselFade" data-slide-to="5"></li>
-		<li data-target="#carouselFade" data-slide-to="6"></li>
-		<li data-target="#carouselFade" data-slide-to="7"></li>
-		<li data-target="#carouselFade" data-slide-to="8"></li>
-		<li data-target="#carouselFade" data-slide-to="9"></li>
-		<li data-target="#carouselFade" data-slide-to="10"></li>
-		<li data-target="#carouselFade" data-slide-to="11"></li>
-		<li data-target="#carouselFade" data-slide-to="12"></li>
-		<li data-target="#carouselFade" data-slide-to="13"></li>
-		<li data-target="#carouselFade" data-slide-to="14"></li>
-		<li data-target="#carouselFade" data-slide-to="15"></li>
-		<li data-target="#carouselFade" data-slide-to="16"></li>
+      <li data-target="#carouselFade" data-slide-to="3"></li>
+      <li data-target="#carouselFade" data-slide-to="4"></li>
+      <li data-target="#carouselFade" data-slide-to="5"></li>
+      <li data-target="#carouselFade" data-slide-to="6"></li>
+      <li data-target="#carouselFade" data-slide-to="7"></li>
+      <li data-target="#carouselFade" data-slide-to="8"></li>
+      <li data-target="#carouselFade" data-slide-to="9"></li>
+      <li data-target="#carouselFade" data-slide-to="10"></li>
+      <li data-target="#carouselFade" data-slide-to="11"></li>
+      <li data-target="#carouselFade" data-slide-to="12"></li>
+      <li data-target="#carouselFade" data-slide-to="13"></li>
+      <li data-target="#carouselFade" data-slide-to="14"></li>
+      <li data-target="#carouselFade" data-slide-to="15"></li>
+      <li data-target="#carouselFade" data-slide-to="16"></li>
     </ol>
     <div class="carousel-inner" role="listbox" data-touch="true">
-      
-        <div class="item active" id="slide1">
-			
-          <h5>Virgin unity festival</h5>
-          <p>...need we say more?</p>
-        </div>
-      
-       
-        <div class="item"  id="slide2">
-          <h5>This is tomorrow festival</h5>
-			
-          <p>We came, we saw, we cleaned!!!</p>
-        </div>
-
-      
-        <div class="item " id="slide3" data-touch="true">
-          <h5>North Tyneside council</h5>
-          <p>Yes, even local councils</p>
-        </div>
-      
-		
-		<div class="item " id="slide4" data-touch="true">
-          <h5>Apartment</h5>
-        
-        </div>
-		
-		<div class="item " id="slide5" data-touch="true"></div>
-		<div class="item " id="slide6" data-touch="true"></div>
-		<div class="item " id="slide7" data-touch="true"></div>
-		<div class="item " id="slide8" data-touch="true"></div>
-		
-
-		<div class="item " i9="slide10" data-touch="true"></div>
-		<div class="item " id="slide11" data-touch="true"></div>
-		<div class="item " id="slide12" data-touch="true"></div>
-		<div class="item " id="slide13" data-touch="true"></div>
-		<div class="item " id="slide14" data-touch="true"></div>
-		<div class="item " id="slide15" data-touch="true"></div>
-		<div class="item " id="slide16" data-touch="true"></div>
-
-		
+      <div class="item active" id="slide1">
+        <h5>Virgin unity festival</h5>
+        <p>...need we say more?</p>
+      </div>
+      <div class="item"  id="slide2">
+        <h5>This is tomorrow festival</h5>
+        <p>We came, we saw, we cleaned!!!</p>
+      </div>
+      <div class="item " id="slide3" data-touch="true">
+        <h5>North Tyneside council</h5>
+        <p>Yes, even local councils</p>
+      </div>
+      <div class="item " id="slide4" data-touch="true">
+        <h5>Apartment</h5>
+      </div>
+      <div class="item " id="slide5" data-touch="true"></div>
+      <div class="item " id="slide6" data-touch="true"></div>
+      <div class="item " id="slide7" data-touch="true"></div>
+      <div class="item " id="slide8" data-touch="true"></div>
+      <div class="item " i9="slide10" data-touch="true"></div>
+      <div class="item " id="slide11" data-touch="true"></div>
+      <div class="item " id="slide12" data-touch="true"></div>
+      <div class="item " id="slide13" data-touch="true"></div>
+      <div class="item " id="slide14" data-touch="true"></div>
+      <div class="item " id="slide15" data-touch="true"></div>
+      <div class="item " id="slide16" data-touch="true"></div>
     </div>
     <a class="left carousel-control" href="#carouselFade" role="button" data-touch="true" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carouselFade" role="button" data-touch="true" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
   <br>
   <h2 class="bluetxt"><strong>What our customers say</strong></h2>
-<div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-touch="true"> 
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel" data-touch="true">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
@@ -730,20 +640,18 @@ Combine it all full Covid-19 eradication, on site cleaning staff, litter pickers
           <span>Billy Ring</span></h4>
       </div>
     </div>
-    
-    <!-- Left and right controls --> 
+    <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 </div>
-
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h1 class="text-center bluetxt"><strong>Contact</strong></h1>
-<div data-aos="fade-right"
+  <div data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" class="row">
     <div class="col-sm-5">
       <h3><strong class="bluetxt">Contact us and we'll get back to you within 24 hours.</strong></h3>
-<p class="bluetxt"><span class="glyphicon glyphicon-map-marker slideanim slidel"></span> Newcastle</p>
+      <p class="bluetxt"><span class="glyphicon glyphicon-map-marker slideanim slidel"></span> Newcastle</p>
       <p class="bluetxt"><span class="glyphicon glyphicon-phone slideanim"></span> 07387187385</p>
       <p class="bluetxt"><span class="glyphicon glyphicon-envelope  slideanim"></span> info@pixiedustcleaningservices.com</p>
     </div>
@@ -775,16 +683,14 @@ var mapProp= {
 };
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
-</script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf04IBAXqdfNd-KLW9FACVNOATtFwgQHI&callback=myMap"></script> 
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBf04IBAXqdfNd-KLW9FACVNOATtFwgQHI&callback=myMap"></script>
 <!--<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%" alt="">-->
 <footer class="container-fluid text-center"> <a href="#myPage" title="To Top"> <span class="glyphicon glyphicon-chevron-up"></span> </a>
   <p>Made By <a href="index.html" title="Visit SF-DESIGN">SF-DESIGN</a></p>
 </footer>
-<script src="scrolling.js"></script> 
+<script src="scrolling.js"></script>
 <!--<script src="glitter.js"></script> -->
 <script src="flippy.js"></script>
-		
 </body>
-	
 </html>

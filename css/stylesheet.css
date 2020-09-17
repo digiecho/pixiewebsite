@@ -34,7 +34,7 @@
 }
 
 .row.no-gutters > * {
-  padding: 5px !important;
+  padding: 15px !important;
 }
 
 .flipper {
@@ -487,6 +487,7 @@ footer .glyphicon {
 /*animations*/
 .slideanim {
     visibility: hidden;
+	border-radius: 24px;
 }
 .slidelanim {
     visibility: hidden;

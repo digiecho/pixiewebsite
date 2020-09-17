@@ -6,7 +6,7 @@ $('.flip').hover(function(){
 
 $(document).ready(function() {
 
-  $('.flipper').hover(function () {
+  $('.flipper').on('click',function () {
     $(this).find('.flipper-card').toggleClass('flipper-is-flipped');
   });
 
