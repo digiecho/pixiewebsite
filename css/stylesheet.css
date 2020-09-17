@@ -14,7 +14,19 @@
   scroll-snap-stop: always;
 }
 
-
+#teamimg{
+  text-align: center;
+  margin: 25px;
+  background-image:url("../images/teamp.png");
+  background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-content: space-around;
+    border-radius: 25px;
+	height: 200px;
+	display: inline-block;
+}
 
 
 #services {
@@ -107,10 +119,7 @@
     width: 100%;
     height: auto;
 }
-.navbar-brand {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 .text-capitalize {
     font-size: 36px !important;
 }
@@ -141,6 +150,8 @@ body {
     display: block;
     width: 100%;
     height: auto;
+	overflow-x: hidden;
+	
 
 }
 main{  
@@ -464,14 +475,21 @@ h4 {
 */
 }
 .navbar li a, .navbar .navbar-brand {
+	background-color: rgba(254, 241, 244, 1.00)!important;
     color: #000000 !important;
     font-weight: bold;
     border-radius: 25px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a .navbar-brand {
-    color: rgba(0, 0, 0, 1.00) !important;
-    background-color: rgba(254, 241, 244, 1.00) !important;
+/*    color: rgba(0, 0, 0, 1.00) !important;*/
+    background-color: rgba(217, 236, 253, 1.00) !important;
     border-radius: 25px;
+}
+li.active{
+background-color: rgba(217, 236, 253, 1.00) !important;
+    border-radius: 25px;
+	
+	
 }
 .navbar-toggle {
     border-color: transparent;

@@ -34,3 +34,14 @@ $(document).ready(function(){
     });
   });
 })
+
+jQuery(function($) {
+    $('#modalMore, #modalToilet, #modalShopping, #modalWalkies, #modalPick, #modalFogging, #modalFest, #modalKitchen, #modalDeep, #modalVenue, #modalHousekeeping').on('hidden.bs.modal', function (e) {
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 200);
+    })
+});
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
