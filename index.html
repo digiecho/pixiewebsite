@@ -20,7 +20,8 @@
 <script src="http://use.edgefonts.net/abel:n4:default.js" type="text/javascript"></script>
 <link rel="stylesheet" href="css/stylesheet.css">
 </head>
-<body class="preload" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body class="preload y-scroll y-mandatory" id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
 <script>
   AOS.init();
 </script>
@@ -40,7 +41,7 @@
     </div>
   </div>
 </nav>
-<div class="jumbotron text-center"> <img class="pixie2 img-responsive" src="babyblue.png"  fill="blrgba(0,0,0,1.00)" alt="pixie">
+<div class="jumbotron text-center snap"> <img class="pixie2 img-responsive" src="babyblue.png"  fill="blrgba(0,0,0,1.00)" alt="pixie">
   <form class="subscribe"  action="mailto:foalestephen@gmail.com" method="post" enctype="text/plain">
     <div class="input-group input col-md-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
@@ -51,7 +52,7 @@
   </form>
 </div>
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<div id="about" class="container-fluid element snap-stop-always">
   <div class="row">
     <div class="col-sm-8 col-md-6 aboutback">
       <h1><strong class="bluetxt">Know Us</strong></h1>
@@ -90,231 +91,326 @@
   <h1 class="text-left"><strong>Services</strong></h1>
   <h2 class="text-left"><strong>Our Pixies have you covered..</strong></h2>
   <br>
+<!--
   <div  data-aos="fade-left"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" class="row aligncenter"> 
+-->
     <!--
     Home cleaning 
 Venue cleaning 
 Deep Clean 
 Fogging service 
 -->
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-house-user logo-small"></span>
-              <h3>House keeping</h3>
-              <p>Put your feet up</p>
+ 
+  <div class="container py-5">
+
+    <div class="row no-gutters">
+      <div class="col-12 col-lg-6">
+
+        <div class="flipper flipper-xl">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              <!--               front -->
+
+              <div class="row no-gutters ">
+                <div class="col align-self-center"> <span class="fas fa-house-user logo-small"></span>
+                  <h3>House keeping</h3>
+                  <p>Put your feet up</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need someone to clean for you?</h3>
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalhousekeeping">More</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-building logo-small"></span>
-              <h3>Venue cleaning </h3>
-              <p>Leading the way in venue cleaning</p>
-            </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need your venue cleaning?</h3>
-              <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalVenue">More</button>
+            <div class="flipper-back">
+              <div class="row no-gutters ">
+                <div class="col text-center">
+                  <h3>Need someone to clean for you?</h3>
+                  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModalhousekeeping">More</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-dog logo-small"></span>
-              <h3>Deep Clean</h3>
-              <p>Deep as the Ocean</p>
+      <div class="col-12 col-lg-6">
+        <div class="row no-gutters">
+          <div class="col-12 col-sm-6">
+
+            <div class="flipper">
+              <div class="flipper-card">
+                <div class="flipper-front">
+                  <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-building logo-small"></span>
+                      <h3>Venue cleaning </h3>
+                      <p>Leading the way in venue cleaning</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="flipper-back">
+                    <div class="row no-gutters ">
+                  <div class="col text-center">
+                    <h3>Need your venue cleaning?</h3>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modalVenue">More</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need a deep cleansing?</h3>
+          <div class="col-12 col-sm-6">
+
+            <div class="flipper">
+              <div class="flipper-card">
+                <div class="flipper-front">
+                   <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-dog logo-small"></span>
+                          <h3>Deep Clean</h3>
+                          <p>Deep as the Ocean</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="flipper-back">
+                   <div class="row no-gutters ">
+                  <div class="col text-center">
+                    <h3>Need a deep cleansing?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalDeep">More</button>
+                  </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
             </div>
+
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-spray-can logo-small"></span>
-              <h3>Fogging</h3>
-              <p>Lastest fogging tech</p>
-            </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need your property, business or event sanitised?</h3>
+          <div class="col-12 col-sm-6">
+
+            <div class="flipper">
+              <div class="flipper-card flipper-is-flipped">
+                <div class="flipper-front">
+                  
+                    <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-spray-can logo-small"></span>
+                        <h3>Fogging</h3>
+                        <p>Lastest fogging tech</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="flipper-back">
+                  
+                      <div class="row no-gutters ">
+                  <div class="col text-center">
+                    <h3>Need your property, business or event sanitised?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFogging">More</button>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <!--
-Kitchen/oven cleaning 
-Dog walking 
-Shopping service 
-Festival cleaning 
--->
-  <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"  class="row">
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
-              <h3>Pixie Oven &amp; Kitchen Cleaning</h3>
-              <p>We make your ovens sparkle</p>
-            </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need your ovens cleaning?</h3>
+          <div class="col-12 col-sm-6">
+
+            <div class="flipper">
+              <div class="flipper-card">
+                <div class="flipper-front">
+                  
+                    <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
+                          <h3>Pixie Oven &amp; Kitchen Cleaning</h3>
+                          <p>We make your ovens sparkle</p>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="flipper-back">
+                  
+                   <div class="row no-gutters ">
+                  <div class="col text-center">
+                     <h3>Need your ovens cleaning?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalKitchen">More</button>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-dog logo-small"></span>
+      <div class="col-12 col-sm-6 col-lg-3">
+
+        <div class="flipper">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              
+                 <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-dog logo-small"></span>
               <h3>Walkies</h3>
               <p>Let us free us time</p>
+                    </div>
+                  </div>
+              
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need your dogs walked?</h3>
+            <div class="flipper-back">B
+            
+               <div class="row no-gutters ">
+                  <div class="col text-center">
+                     <h3>Need your dogs walked?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalWalkies">More</button>
+                  </div>
+                  </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fa fa-shopping-cart logo-small"></span>
+      <div class="col-12 col-sm-6 col-lg-3">
+
+        <div class="flipper">
+          <div class="flipper-card flipper-is-flipped">
+            <div class="flipper-front">
+              
+                  <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
               <h3>Shopping service </h3>
               <p>Let us do the hard work</p>
+                    </div>
+                  </div>
+              
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need something?</h3>
+            <div class="flipper-back">B
+            
+            <div class="row no-gutters ">
+                  <div class="col text-center">
+                     <h3>Need something?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalShopping">More</button>
+                  </div>
+                  </div>
+            
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fa fa-shopping-cart logo-small"></span>
+      <div class="col-12 col-lg-6">
+
+        <div class="flipper ratio-not-1-1">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              
+                   <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fa fa-shopping-cart logo-small"></span>
               <h3>Festival Services</h3>
               <p>Let us do the hard work</p>
+                    </div>
+                  </div>
+              
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
-              <h3>Need help?</h3>
+            <div class="flipper-back">
+              
+              
+               <div class="row no-gutters ">
+                  <div class="col text-center">
+                     <h3>Need help?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalFest">More</button>
+                  </div>
+                  </div>
+              
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-  </div>
-  <br>
-  <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" class="row ">
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+      <div class="col-12 col-lg-6">
+
+        <div class="flipper ratio-not-1-1">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              
+                 <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
               <h3>Litter Picking</h3>
               <p>Put it in the bin</p>
+                    </div>
+                  </div>
+              
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
+            <div class="flipper-back">
+              <div class="row no-gutters ">
               <h3>Need our Pixies to get picking?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalPick">More</button>
+              </div>
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+      <div class="col-12 col-sm-6 col-lg-3">
+
+        <div class="flipper">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              
+                   <div class="row no-gutters ">
+                    <div class="col text-center"> <span class="fas fa-hand-sparkles logo-small"></span>
               <h3>Toilet Attendents</h3>
               <p>We keep you on a roll</p>
+                    </div>
+                  </div>
+              
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
+            <div class="flipper-back">
+              
+              <div class="row no-gutters ">
+                    <div class="col text-center">
               <h3>Need some one to stand watch?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalToilet">More</button>
+              </div>
+              </div>
+              
             </div>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="flip">
-        <div class="card">
-          <div class="face front">
-            <div class="col-sm-4 inner"> <span class="fas fa-hand-sparkles logo-small"></span>
+      <div class="col-12 col-sm-6 col-lg-3">
+
+        <div class="flipper">
+          <div class="flipper-card">
+            <div class="flipper-front">
+              
+              <div class="row no-gutters ">
+              <div class="col text-center">
+              <span class="fas fa-hand-sparkles logo-small"></span>
               <h3>More</h3>
               <p>Almost nothing we can't do</p>
+              </div>
+              </div>
             </div>
-          </div>
-          <div class="face back">
-            <div class="inner text-center">
+            <div class="flipper-back">
+              
+              <div class="row no-gutters ">
+                    <div class="col text-center">
               <h3>Need sometthing specific?</h3>
               <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modalMore">More</button>
+              </div>
+              </div>
+              
             </div>
           </div>
         </div>
+
       </div>
     </div>
+
   </div>
-</div>
+		</div>
 
 <!-- Modals -->
 
@@ -688,5 +784,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <script src="scrolling.js"></script> 
 <!--<script src="glitter.js"></script> -->
 <script src="flippy.js"></script>
+		
 </body>
+	
 </html>

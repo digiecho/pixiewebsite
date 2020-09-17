@@ -1,89 +1,55 @@
 @charset "utf-8";
 /* CSS Document */
+.element {
+  
+  scroll-margin: 10px;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+}
+.y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+
+.snap-stop-always {
+  scroll-snap-stop: always;
+}
+
+
+
+
 #services {
     background-color: rgba(217, 236, 253, 0.95);
     background-image: url("../Pixie.svg");
     background-attachment: sticky;
     background-repeat: no-repeat;
-    background-position: sticky;
+    background-position: right;
     background-size: auto;
-    align-content: center;
+    align-content: space-around;
     border-radius: 25px;
     overflow-x: hidden;
 }
+
+.row.no-gutters {
+  margin: -5px !important;
+}
+
+.row.no-gutters > * {
+  padding: 5px !important;
+}
+
+.flipper {
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  -webkit-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
 .shadow {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
-.row {
-    align-content: space-between;
-}
-.flip {
-    -webkit-perspective: 800;
-    perspective: 800;
-    position: relative;
-    text-align: center;
-    border-radius: 25px;
-}
-.flip .card.flipped {
-    -webkit-transform: rotatey(-180deg);
-    transform: rotatey(-180deg);
-}
-.flip .card {
-    width: 270px;
-    height: 178px;
-    -webkit-transform-style: preserve-3d;
-    -webkit-transition: 0.5s;
-    transform-style: preserve-3d;
-    transition: 0.5s;
-    background-color: rgba(217, 236, 253, 0.95);
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
-}
-.flip .card .face {
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    z-index: 2;
-}
-.flip .card .front {
-    position: absolute;
-    width: 270px;
-    z-index: 1;
-/*    border-radius: 25px;*/
-    /*	box-shadow: 2px 2px 5px rgba(0,0,0,0.25);*/
-}
-.flip .card .front img {
-    width: 270px;
-    height: 100%;
-/*    border-radius: 25px;*/
-}
-.flip .card .img {
-    position: relaitve;
-    width: 270px;
-    height: 178px;
-    z-index: 1;
-    border: 2px solid #000;
-/*    border-radius: 25px;*/
-}
-.flip .card .back {
-    padding-top: 10%;
-    -webkit-transform: rotatey(-180deg);
-    transform: rotatey(-180deg);
-    position: absolute;
-    /*    background-color: rgba(217, 236, 253, 0.95);*/
-/*    border-radius: 25px;*/
-}
-.inner {
-    margin: 0px !important;
-    width: 270px;
-/*	background-color: rgba(217, 236, 253, 0.0);*/
-    /*
-    border-radius: 25px;
-	box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
-*/
-}
- .col-sm-3{
-	background-color: rgba(217, 236, 253, 0.0);
-}
+
 
 .modal {
     align-self: center;
@@ -175,8 +141,18 @@ body {
     display: block;
     width: 100%;
     height: auto;
-	
+
 }
+main{  
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
+	scroll-snap-align: start;
+}
+about{
+	scroll-snap-align: start;
+}
+
+
 .form-control {
     background-color: rgba(254, 241, 244, 1.00);
     color: rgba(0, 0, 0, 1.00);
@@ -231,6 +207,7 @@ h4 {
     background-size: cover;
     background-color: rgba(254, 241, 244, 1);
     border-radius: 25px;
+	scroll-snap-align: start;
 }
 .bg-grey {
     background-color: rgba(254, 241, 244, 1.00) !important;
@@ -581,6 +558,54 @@ p {
         margin-bottom: 35px;
     }
 }
+
+@media (min-width: 576px) {
+
+  .ratio-not-1-1 {
+    padding-bottom: calc(50% - 5px);
+  }
+
+}
+
+.flipper-card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: -webkit-transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.flipper-front,
+.flipper-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 24px;
+  background-color: rgba(217, 236, 253, 0.95);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flipper-back {
+  background-color: rgba(217, 236, 253, 0.95);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flipper-card.flipper-is-flipped {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
 @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
