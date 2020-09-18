@@ -1,5 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+.social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  background-color: #1D809F;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
 .element {
   
   scroll-margin: 10px;
@@ -305,6 +316,14 @@ h4 {
 
 }
 
+
+#slide1 {
+    background-image: url("../images/virgin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 #slide1 {
     background-image: url("../images/virgin.jpg");
     background-repeat: no-repeat;
@@ -478,18 +497,18 @@ h4 {
 */
 }
 .navbar li a, .navbar .navbar-brand {
-	background-color: rgba(254, 241, 244, 1.00)!important;
+	background-color: rgba(217, 236, 253, 1.00)!important;
     color: #000000 !important;
     font-weight: bold;
     border-radius: 25px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a .navbar-brand {
 /*    color: rgba(0, 0, 0, 1.00) !important;*/
-    background-color: rgba(217, 236, 253, 1.00) !important;
+    background-color: rgba(254, 241, 244, 1.00) !important;
     border-radius: 25px;
 }
 li.active{
-background-color: rgba(217, 236, 253, 1.00) !important;
+background-color: rgba(254, 241, 244, 1.00) !important;
     border-radius: 25px;
 	
 	
