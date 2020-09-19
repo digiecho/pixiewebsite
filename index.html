@@ -32,7 +32,7 @@
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="#myPage">Pixie Dust</a></div>
+      <a class="navbar-brand" href="#myPage"><strong>Pixie Dust</strong></a></div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li ><a href="#about">Know Us</a></li>
@@ -44,11 +44,12 @@
   </div>
 </nav>
 <div class="jumbotron text-center snap"> <img class="pixie2 img-responsive" src="babyblue.png"  fill="blrgba(0,0,0,1.00)" alt="pixie">
-  <form class="subscribe"  action="mailto:foalestephen@gmail.com" method="post" enctype="text/plain">
+  <form action="https://script.google.com/macros/s/AKfycbxcdt8FRnB4zrI2BlKJ6ktTJ7oZMJpeIpqV1BZBHg/exec" method="post" target="hidden_iframe" onsubmit="return validateForm();">
     <div class="input-group input col-md-offset-4 col-sm-offset-4 col-sm-4 col-md-4">
-      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <input type="email" class="form-control" size="50" placeholder="Email Address" name="emailSub">
+		
       <div class="input-group-btn input">
-        <button type="button" class="btn btn-danger"><strong>Subscribe</strong></button>
+        <button  class="btn btn-danger" type="submit" method="post" enctype="text/plain"><strong>Subscribe</strong></button>
       </div>
     </div>
   </form>
@@ -62,7 +63,7 @@
       <br>
       <h4 class="bluetxt">A family run company who are passionate about providing a reliable, safe and affordable service...</h4>
       <br>
-      <p class="bluetxt">Booking a Pixie has become essential, especially in 2020 now the world changed forever!!! Our pixie promise is customer satisfaction every time. Tailored to the customer’s needs, with over 15 years experience in all aspects of cleaning along wity extensive COVID-19 training, our team has you covered every time.
+      <p class="bluetxt">Booking a Pixie has become essential, especially in 2020 now the world changed forever!!! Our pixie promise is customer satisfaction every time. Tailored to the customer’s needs, with over 15 years experience in all aspects of cleaning along with extensive COVID-19 training, our team has you covered every time.
         No job is too big or small for our Pixies!!!<br>
         We don't just clean... We care... </p>
       <br>
@@ -80,17 +81,17 @@
 	    <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#!">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/PixieDustCleaningServiceNE">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#!">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/pixiedustcleaningservice/">
             <i class="icon-social-instagram"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#!">
+          <a class="social-link rounded-circle text-white" href="https://www.facebook.com/PixieDustCleaningServiceNE">
             <i class="icon-social-linkedin"></i>
           </a>
         </li>
@@ -106,7 +107,7 @@
     <div class="col-sm-8 col-md-offset-0 col-md-8">
       <h2>Our Values</h2>
       <br>
-      <h4 class="bluetxt">Our mission is to make the world a cleaner place, fight COVID-19 while helping you save time, money and effort. Wouldnt it be ncie if every place had a Pixie, well thats our vision.</h4>
+      <h4 class="bluetxt">Our mission is to make the world a cleaner place, fight COVID-19 while helping you save time, money and effort. Wouldn't it be nice if every place had a Pixie, well thats our vision.</h4>
       <p>&nbsp;</p>
       <br>
     </div>
@@ -713,10 +714,10 @@ Fogging service
     <div class="col-sm-7 slideanim">
       <div class="row">
         <div class="col-sm-6 form-group">
-          <input class="form-control pink-bg" id="name" name="name" placeholder="Name" type="text"  required>
+          <input class="form-control pink-bg" id="name" name="name" placeholder="Name" type="text">
         </div>
         <div class="col-sm-6 form-group">
-          <input class="form-control pink-bg" id="email" name="email" placeholder="Email" type="email" required>
+          <input class="form-control pink-bg" id="email" name="email" placeholder="Email" type="email">
         </div>
       </div>
       <textarea class="form-control pink-bg" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
