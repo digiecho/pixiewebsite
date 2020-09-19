@@ -1,5 +1,20 @@
 @charset "utf-8";
 /* CSS Document */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
 .social-link {
   display: block;
   height: 4rem;
@@ -23,7 +38,14 @@
 .y-mandatory {
   scroll-snap-type: y mandatory;
 }
+.sticky{
+	display: inline-block;
+	  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+/*	display: block;*/
 
+}
 .snap-stop-always {
   scroll-snap-stop: always;
 }
@@ -113,10 +135,12 @@
 .pixie2 {
     align-self: center;
     vertical-align: bottom;
-    display: inline;
+    display: inline-block;
     width: 600px;
     height: auto;
     padding-bottom: 10px;
+	position: relative;
+	
 }
 .sparkley {
     background: #3e5871;
@@ -197,8 +221,15 @@ about{
     /*    color: rgba(217,236,253,1.00) !important;*/
     color: rgba(0, 0, 0, 1.00) !important;
 }
+.bluetxt2 {
+    /*    color: rgba(217,236,253,1.00) !important;*/
+    color: rgba(217, 236, 253, 1.00)!important;
+}
 .pink-bg {
     background-color: rgba(254, 241, 244, 0.95);
+}
+.pink {
+    color: rgba(254, 241, 244, 0.95);
 }
 #services .col-sm-4 {
 /*    background-color: rgba(217, 236, 253, 0.95);*/
@@ -223,8 +254,9 @@ h4 {
     background-size: cover;
     color: #000000;
     padding: 70px 25px;
-    height: 100vh;
+    height: 100%;
     border-radius: 25px;
+	
     /*    font-family: Montserrat, sans-serif;*/
 }
 .container-fluid {
