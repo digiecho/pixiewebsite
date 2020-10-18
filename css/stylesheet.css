@@ -1,5 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+/* Defines the width of the carousel and centers it on the page */
+.slick-carousel {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* The width of each slide */
+.slick-slide {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+.imgcarousel{
+    width: 100%;
+    height: 400px;
+    /*object-fit: cover;*/
+    display: inline-block;
+}
+
+
 a:link {
   text-decoration: none;
 }
@@ -336,6 +356,7 @@ h4 {
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: rgba(254, 241, 244, 1.00);
+    z-index: 9;
 }
 .carousel-indicators li {
     border-color: rgba(254, 241, 244, 1.00);
