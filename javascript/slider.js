@@ -6,7 +6,9 @@ $('.slick-carousel').slick({
   slidesToShow: 3,
   focusOnSelect: true,
   slidesToScroll: 3,
-  // arrows: false,
+  arrows: false,
+  autoplay:true,
+  autoplaySpeed:1500,
   responsive: [
     {
       breakpoint: 768,

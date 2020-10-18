@@ -40,7 +40,8 @@
         js = d.createElement(s); js.id = id;
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- Your Chat Plugin code -->
 <div class="fb-customerchat"
@@ -50,17 +51,6 @@
      logged_in_greeting="Hi! How can we help you? Need a Pixie in your life?"
      logged_out_greeting="Hi! How can we help you? Need a Pixie in your life?">
 </div>
-<!--<script>-->
-<!--    window.fbAsyncInit = function() {-->
-<!--        FB.init({-->
-<!--            appId            : '3793910890639175',-->
-<!--            autoLogAppEvents : true,-->
-<!--            xfbml            : true,-->
-<!--            version          : 'v8.0'-->
-<!--        });-->
-<!--    };-->
-<!--</script>-->
-<!--<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>-->
 <script>
     AOS.init();
 </script>
@@ -116,7 +106,7 @@
                 No job is too big or small for our Pixies!!!<br>
                 We don't just clean... We care... </strong></p>
             <br>
-            <a href="#contact" class="btn btn-default btn-lg" data-target="#contact"> <strong>Get in Touch</strong></a>
+
         </div>
         <div class="col-sm-4 bluebg col-md-offset-0 col-md-4"> <span data-aos="fade-left"
                                                                      data-aos-offset="300"
@@ -127,6 +117,7 @@
     </div>
     <div class="container extram">
         <ul class="list-inline mb-5">
+            <li class="list-inline-item"><a href="#contact" class="btn btn-default btn-lg" data-target="#contact"> <strong>Get in Touch</strong></a></li>
             <li class="list-inline-item"><a class="social-link rounded-circle text-white mr-3"
                                             href="https://www.facebook.com/PixieDustCleaningServiceNE"> <i
                     class="icon-social-facebook"></i> </a></li>
@@ -710,48 +701,28 @@
     <h1><strong>Portfolio</strong></h1>
     <br>
     <h3 class="bluetxt"><strong>Who we have worked with</strong></h3>
-    <div id="carouselFade" class="carousel slide" data-ride="carousel" data-touch="true">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselFade" data-slide-to="1"></li>
-            <li data-target="#carouselFade" data-slide-to="2"></li>
-            <li data-target="#carouselFade" data-slide-to="3"></li>
-            <li data-target="#carouselFade" data-slide-to="4"></li>
-            <li data-target="#carouselFade" data-slide-to="5"></li>
-            <li data-target="#carouselFade" data-slide-to="6"></li>
-            <li data-target="#carouselFade" data-slide-to="7"></li>
-            <li data-target="#carouselFade" data-slide-to="8"></li>
-            <li data-target="#carouselFade" data-slide-to="9"></li>
-            <li data-target="#carouselFade" data-slide-to="10"></li>
-            <li data-target="#carouselFade" data-slide-to="11"></li>
-            <li data-target="#carouselFade" data-slide-to="12"></li>
-            <li data-target="#carouselFade" data-slide-to="13"></li>
-            <li data-target="#carouselFade" data-slide-to="14"></li>
-            <li data-target="#carouselFade" data-slide-to="15"></li>
-            <li data-target="#carouselFade" data-slide-to="16"></li>
-        </ol>
-        <div id="slides" class="carousel-inner" role="listbox" data-touch="true">
-            <div class="item active" id="slide1"></div>
-            <div class="item" id="slide2"></div>
-            <div class="item " id="slide3" data-touch="true"></div>
-            <div class="item " id="slide4" data-touch="true"></div>
-            <div class="item " id="slide5" data-touch="true"></div>
-            <div class="item " id="slide6" data-touch="true"></div>
-            <div class="item " id="slide7" data-touch="true"></div>
-            <div class="item " id="slide8" data-touch="true"></div>
-            <div class="item " i9="slide10" data-touch="true"></div>
-            <div class="item " id="slide11" data-touch="true"></div>
-            <div class="item " id="slide12" data-touch="true"></div>
-            <div class="item " id="slide13" data-touch="true"></div>
-            <div class="item " id="slide14" data-touch="true"></div>
-            <div class="item " id="slide15" data-touch="true"></div>
-            <div class="item " id="slide16" data-touch="true"></div>
+   <div class="imgcarousel carousel slider">
+        <!-- Wrapper for slides -->
+        <div class="slick-carousel aff" role="listbox">
+            <img class='center item' src='images/virgin.jpg'/>
+            <img class='center item' src='images/tomorrow.jpg'/>
+            <img class='center item' src='images/Tyneside.jpg'/>
+            <img class='center item' src='images/attachments/apartemnt.jpg'/>
+            <img class='center item' src='images/attachments/asyoulikeit.jpg'/>
+            <img class='center item' src='images/attachments/clubland.jpg'/>
+            <img class='center item' src='images/attachments/dingley.jpg'/>
+            <img class='center item' src='images/attachments/dining.jpg'/>
+            <img class='center item' src='images/attachments/heeland toe.jpg'/>
+            <img class='center item' src='images/attachments/horticulture.jpg'/>
+            <img class='center item' src='images/attachments/liberybrown.jpg'/>
+            <img class='center item' src='images/attachments/palmbeach.jpg'/>
+            <img class='center item' src='images/attachments/riverside.jpg'/>
+            <img class='center item' src='images/attachments/ssd.jpg'/>
+            <img class='center item' src='images/attachments/themillhouse.jpg'/>
+            <img class='center item' src='images/attachments/tynemouth.jpg'/>
+            <img class='center item' src='images/attachments/underthebridge.jpg'/>
+            <img class='center item' src='images/attachments/vms.jpg'/>
         </div>
-        <a class="left carousel-control" href="#carouselFade" role="button" data-touch="true" data-slide="prev"> <span
-                class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
-                class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carouselFade"
-                                                        role="button" data-touch="true" data-slide="next"> <span
-            class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
     </div>
     <br>
     <h2 class="bluetxt"><strong>What our customers say</strong></h2>
@@ -778,7 +749,7 @@
             </div>
         </div>
         <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span
+        <a class="left carousel-control bg-blue2" href="#myCarousel" role="button" data-slide="prev"> <span
                 class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span
                 class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" role="button"
                                                         data-slide="next"> <span
@@ -786,13 +757,12 @@
     </div>
 
 
-<!--    <div class="imgcarousel carousel slider">-->
-<!--        &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
-<!--        <div class="your-class slick-carousel" role="listbox">-->
-<!--        </div>-->
-<!--    </div>-->
-    <!-- Left and right controls -->
-<!---->
+    <div class="imgcarousel carousel slider">
+        <!-- Wrapper for slides -->
+        <div class="your-class slick-carousel" role="listbox">
+        </div>
+    </div>
+
 </div>
 
 
@@ -851,11 +821,9 @@
 </div>
 <footer class="container-fluid text-center bg-blue2"><a href="#myPage" title="To Top"> <span
         class="glyphicon glyphicon-chevron-up"></span> </a>
-    <p>Made By <a href="index.html" title="Visit SF-DESIGN">SF-DESIGN</a></p>
+    <p>Made By <a href="https://www.facebook.com/they.webdesign" title="Visit SF-DESIGN">THEY.DESIGN</a></p>
 </footer>
-<!--<div class="fb-customerchat"-->
-<!--     page_id="<PAGE_ID>">-->
-<!--</div>-->
+
 <script src="javascript/scrolling.js"></script>
 <!--<script src="js/glitter.js"></script> -->
 <script src="javascript/flippy.js"></script>
