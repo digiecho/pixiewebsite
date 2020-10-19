@@ -8,7 +8,7 @@ $('.slick-carousel').slick({
   slidesToScroll: 3,
   arrows: false,
   autoplay:true,
-  autoplaySpeed:400,
+  autoplaySpeed:800,
   rows: 1,
   responsive: [
     {

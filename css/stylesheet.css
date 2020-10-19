@@ -118,6 +118,7 @@ a:active {
     align-content: space-around;
     /*border-radius: 25px;*/
     overflow-x: hidden;
+    /*padding:0px;*/
 }
 
 .row.no-gutters {
@@ -296,6 +297,9 @@ h4 {
     border-radius: 15px;
 	
     /*    font-family: Montserrat, sans-serif;*/
+}
+.container py-5{
+    padding:0px 0px;
 }
 .container-fluid {
     padding: 50px 50px;
@@ -609,5 +613,33 @@ p {
     .logo {
         font-size: 150px;
     }
-	
+    .slick-slide {
+        /*width: 280px;*/
+        /*height: 280px;*/
+        object-fit: cover;
+        border-radius: 15px;
+    }
+    .center {
+        object-fit: cover !important;
+        align-self: center;
+        width:280px;
+        height:280px;
+        border-radius: 15px;
+    }
+    .aff img {
+        object-fit: cover !important;
+        align-self: center;
+        width:280px;
+        height:280px;
+        border-radius: 15px;
+
+    }
+    .imgcarousel{
+      /*width:auto;*/
+      /*  height:auto;*/
+        /*object-fit: cover;*/
+        display: inline-block;
+        padding-top: 40px;
+        border-radius: 15px;
+    }
 }
