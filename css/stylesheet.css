@@ -10,22 +10,35 @@
 /* The width of each slide */
 .slick-slide {
     width: 200px;
-    height: 400px;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
 }
+.center {
+    object-fit: fill !important;
+    align-self: center;
+    width:440px;
+    height:440px;
+}
 .aff img {
     object-fit: contain !important;
+	align-self: center;
+    width:440px;
+    height:440px;
 }
 .imgcarousel{
-    width: 100%;
-    height: 400px;
-    /*object-fit: cover;*/
-    display: inline-block;
-    padding-top: 40px;
-    border-radius: 15px;
+	width: 100%;
+	height: auto;
+	/*object-fit: cover;*/
+	display: inline-block;
+	padding-top: 40px;
+	border-radius: 15px;
 }
-
+extram{
+	margin:0px;
+	padding:0px;
+	
+}
 
 a:link {
   text-decoration: none;
@@ -596,4 +609,5 @@ p {
     .logo {
         font-size: 150px;
     }
+	
 }
