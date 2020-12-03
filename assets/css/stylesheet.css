@@ -189,6 +189,7 @@ porcol{
 
 .modal div::-webkit-scrollbar {
   display: none;
+  z-index: 9999;
 }
 h4pad{
   padding: 16px;
